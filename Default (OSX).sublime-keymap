@@ -1,0 +1,6 @@
+[
+    {
+        "keys": ["ctrl+super+f"],
+        "command": "go_to_function"
+    }
+]
