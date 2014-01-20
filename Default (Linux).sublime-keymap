@@ -1,6 +1,5 @@
 [
-    {
-        "keys": ["ctrl+alt+f"],
-        "command": "go_to_function"
-    }
+    { "keys": ["ctrl+r"], "command": "quick_goto_function" },
+    { "keys": ["ctrl+;"], "command": "quick_goto_variable" },
+    { "keys": ["ctrl+p"], "command": "quick_goto_file" }
 ]

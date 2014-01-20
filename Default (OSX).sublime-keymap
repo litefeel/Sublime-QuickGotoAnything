@@ -1,6 +1,5 @@
 [
-    {
-        "keys": ["ctrl+super+f"],
-        "command": "go_to_function"
-    }
+    { "keys": ["super+r"], "command": "quick_goto_function" },
+    { "keys": ["super+;"], "command": "quick_goto_variable" },
+    { "keys": ["super+p"], "command": "quick_goto_file" }
 ]

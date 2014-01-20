@@ -1,8 +1,0 @@
-[
-    { "caption": "-" },
-    {
-        "caption": "Go To Function",
-        "command": "go_to_function"
-    },
-    { "caption": "-" }
-]
