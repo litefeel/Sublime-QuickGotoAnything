@@ -14,11 +14,11 @@ class QuickGotoCommand(sublime_plugin.TextCommand):
 
 class QuickGotoFunctionCommand(QuickGotoCommand):
     def run(self, edit):
-        self.doCommand(edit, '@', '^[a-zA-Z_]+[a-zA-Z0-9_]+$')
+        self.doCommand(edit, '@', '^[a-zA-Z_]+[a-zA-Z0-9_]*$')
         
 class QuickGotoVariableCommand(QuickGotoCommand):
     def run(self, edit):
-        self.doCommand(edit, '#', '^[a-zA-Z_]+[a-zA-Z0-9_]+$')
+        self.doCommand(edit, '#', '^[a-zA-Z_]+[a-zA-Z0-9_]*$')
         
 class QuickGotoFileCommand(QuickGotoCommand):
     def run(self, edit):
