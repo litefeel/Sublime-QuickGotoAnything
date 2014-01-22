@@ -1,4 +1,4 @@
-Sublime-QuickGotoAnything
+QuickGotoAnything
 ====================
 
 Sublime Text Plugin to quick scroll to function/variable or quick open file, It use selected word. Works in ST2 and ST3.
