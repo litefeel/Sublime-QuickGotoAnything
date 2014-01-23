@@ -8,7 +8,8 @@ class QuickGotoCommand(sublime_plugin.TextCommand):
             if sel.empty():
                 sel = self.view.word(sel)
             word_sel = self.view.substr(sel)
-            if not re.search(reg, word_sel):
+            word_sel = word_sel.strip()
+            if not re.match(reg, word_sel):
                 word_sel = ''
             self.view.window().run_command("show_overlay", {"overlay": "goto", "text": prifix+word_sel})
 
@@ -22,5 +23,6 @@ class QuickGotoVariableCommand(QuickGotoCommand):
         
 class QuickGotoFileCommand(QuickGotoCommand):
     def run(self, edit):
-        self.doCommand(edit, '', '^[a-zA-Z0-9_\-\. ]+$')
+        # space to '~' and not ':*?"<>|'
+        self.doCommand(edit, '', '^[ !#-)+-9;=@-{}~]+$')
         
