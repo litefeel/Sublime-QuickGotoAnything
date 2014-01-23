@@ -1,0 +1,11 @@
+QuickGotoAnything 1.0.1 changelog
+=============================
+
+### Change log 1.0.1
+- Modify: Matching file rules.
+- Modify: Leading and trailing whitespace of string removed.
+
+### Related Links
+homepage:<http://www.litefeel.com/sublime-quickgotoanything/>
+github:<https://github.com/lite3/Sublime-QuickGotoAnything/>
+issues:<https://github.com/lite3/Sublime-QuickGotoAnything/issues>
