@@ -1,0 +1,6 @@
+{
+    // remove prefix for text
+    "del_prefix": "",
+    // remove suffix for text
+    "del_suffix": ""
+}
