@@ -21,66 +21,49 @@
 							},
 							{"caption": "-"},
 							{
+								"caption": "Settings",
+								"command": "quick_goto_anything_edit_settings",
+								"args": {
+								    "base_file": "${packages}/QuickGotoAnything/QuickGotoAnything.sublime-settings",
+								    "default": "// QuickGotoAnything Settings - User\n{\n\t$0\n}\n"
+								}
+							},
+							{
 								"caption": "Settings – Default",
-								"command": "open_file",
+								"command": "quick_goto_anything_open_file",
 								"args": {
 									"file": "${packages}/QuickGotoAnything/QuickGotoAnything.sublime-settings"
 								}
 							},
 							{
 								"caption": "Settings – User",
-								"command": "open_file",
+								"command": "quick_goto_anything_open_file",
 								"args": {
 									"file": "${packages}/User/QuickGotoAnything.sublime-settings"
 								}
 							},
 							{"caption": "-"},
 							{
-								"caption": "Key Bindings – Default",
-								"command": "open_file",
+								"caption": "Key Bindings",
+								"command": "quick_goto_anything_edit_settings",
+								"is_visible": true,
 								"args": {
-									"file": "${packages}/QuickGotoAnything/Default (Windows).sublime-keymap",
-									"platform": "Windows"
+								    "base_file": "${packages}/QuickGotoAnything/Default (${platform}).sublime-keymap",
+								    "default": "// QuickGotoAnything Key Bindings - User\n{\n\t$0\n}\n"
 								}
 							},
 							{
 								"caption": "Key Bindings – Default",
-								"command": "open_file",
+								"command": "quick_goto_anything_open_file",
 								"args": {
-									"file": "${packages}/QuickGotoAnything/Default (OSX).sublime-keymap",
-									"platform": "OSX"
+									"file": "${packages}/QuickGotoAnything/Default (${platform}).sublime-keymap"
 								}
 							},
 							{
 								"caption": "Key Bindings – Default",
-								"command": "open_file",
+								"command": "quick_goto_anything_open_file",
 								"args": {
-									"file": "${packages}/QuickGotoAnything/Default (Linux).sublime-keymap",
-									"platform": "Linux"
-								}
-							},
-							{
-								"caption": "Key Bindings – User",
-								"command": "open_file",
-								"args": {
-									"file": "${packages}/User/Default (Windows).sublime-keymap",
-									"platform": "Windows"
-								}
-							},
-							{
-								"caption": "Key Bindings – User",
-								"command": "open_file",
-								"args": {
-									"file": "${packages}/User/Default (OSX).sublime-keymap",
-									"platform": "OSX"
-								}
-							},
-							{
-								"caption": "Key Bindings – User",
-								"command": "open_file",
-								"args": {
-									"file": "${packages}/User/Default (Linux).sublime-keymap",
-									"platform": "Linux"
+									"file": "${packages}/QuickGotoAnything/Default (${platform}).sublime-keymap"
 								}
 							},
 							{ "caption": "-" }
