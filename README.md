@@ -5,11 +5,11 @@ Sublime Text Plugin to quick scroll to function/variable or quick open file, It 
 
 ### Keybindings
 
-|   goto   | Windows |   OSX   |
+|   Goto   | Windows |   OSX   |
 |:--------:|:-------:|:-------:|
-| function |  ctrl+r | super+r |
-| variable |  ctrl+; | super+; |
-| file     |  ctrl+p | super+p |
+| Function |  CTRL+R | SUPER+R |
+| Variable |  CTRL+; | SUPER+; |
+| File     |  CTRL+P | SUPER+P |
 
 Settings
 ==============
