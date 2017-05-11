@@ -6,10 +6,6 @@ STVER = int(sublime.version())
 ST3 = STVER >= 3000
 
 
-def plugin_loaded():
-    settings.load_settings()
-
-
 class QuickGotoAnythingOpenFileCommand(sublime_plugin.ApplicationCommand):
     """This is a wrapper class for SublimeText's `open_file` command.
 
