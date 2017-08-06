@@ -3,7 +3,7 @@ QuickGotoAnything
 
 Sublime Text Plugin to quick scroll to function/variable or quick open file, It use selected word. Works in ST2 and ST3.
 
-### Keybindings
+### Key Bindings
 
 |   Goto   | Windows |   OSX   |
 |:--------:|:-------:|:-------:|
@@ -11,12 +11,12 @@ Sublime Text Plugin to quick scroll to function/variable or quick open file, It 
 | Variable |  CTRL+; | SUPER+; |
 | File     |  CTRL+P | SUPER+P |
 
-Settings
-==============
 
-If you will be able to remove the prefix and suffix of text.
-please modify the path by selecting
-"Preferences->Package Settings->QuickGotoAnything->Settings - User" in the menu.
+Modify the defalut key bingding with the following menu items.
+
+`Preferences->Package Settings->QuickGotoAnything->Key Bindings`
+
+### Settings
 
 The default setting is:
 
@@ -29,6 +29,10 @@ The default setting is:
 }
 ~~~
 
+
+Modify the default settings with the following menu items.
+
+`Preferences->Package Settings->QuickGotoAnything->Settings`
 
 ### Related Links
 homepage:<https://www.litefeel.com/sublime-quickgotoanything/>  
