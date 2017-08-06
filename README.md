@@ -1,6 +1,9 @@
 QuickGotoAnything
 ====================
 
+[![Build Status](https://travis-ci.org/litefeel/Sublime-QuickGotoAnything.svg?branch=master)](https://travis-ci.org/litefeel/Sublime-QuickGotoAnything)
+[![Build status](https://ci.appveyor.com/api/projects/status/40vjxtplhvw82aw8/branch/master?svg=true)](https://ci.appveyor.com/project/litefeel/sublime-quickgotoanything/branch/master)
+
 Sublime Text Plugin to quick scroll to function/variable or quick open file, It use selected word. Works in ST2 and ST3.
 
 ### Key Bindings
