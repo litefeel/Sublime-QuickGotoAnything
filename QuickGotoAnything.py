@@ -4,7 +4,7 @@ import sublime_plugin
 import re
 
 class QuickGotoCommand(sublime_plugin.TextCommand):
-    def doCommand(self, edit, prifix, reg):
+    def doCommand(self, edit, prifix, reg, show_files = True):
         for sel in self.view.sel():
             if sel.empty():
                 sel = self.view.word(sel)
@@ -22,7 +22,7 @@ class QuickGotoCommand(sublime_plugin.TextCommand):
 
             if not re.match(reg, word_sel):
                 word_sel = ''
-            self.view.window().run_command("show_overlay", {"overlay": "goto", "text": prifix+word_sel})
+            self.view.window().run_command("show_overlay", {"overlay": "goto", "show_files": show_files, "text": prifix+word_sel})
 
 class QuickGotoFunctionCommand(QuickGotoCommand):
     def run(self, edit):
@@ -33,7 +33,7 @@ class QuickGotoVariableCommand(QuickGotoCommand):
         self.doCommand(edit, '#', '^[a-zA-Z_]+[a-zA-Z0-9_]*$')
         
 class QuickGotoFileCommand(QuickGotoCommand):
-    def run(self, edit):
+    def run(self, edit, show_files = True):
         # space to '~' and not ':*?"<>|'
-        self.doCommand(edit, '', '^[ !#-)+-9;=@-{}~]+$')
+        self.doCommand(edit, '', '^[ !#-)+-9;=@-{}~]+$', show_files)
         

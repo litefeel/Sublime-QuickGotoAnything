@@ -1,5 +1,5 @@
 [
     { "keys": ["ctrl+r"], "command": "quick_goto_function" },
     { "keys": ["ctrl+;"], "command": "quick_goto_variable" },
-    { "keys": ["ctrl+p"], "command": "quick_goto_file" }
+    { "keys": ["ctrl+p"], "command": "quick_goto_file", "args": { "show_files": true } }
 ]

@@ -1,5 +1,5 @@
 [
     { "keys": ["super+r"], "command": "quick_goto_function" },
     { "keys": ["super+;"], "command": "quick_goto_variable" },
-    { "keys": ["super+p"], "command": "quick_goto_file" }
+    { "keys": ["super+p"], "command": "quick_goto_file", "args": { "show_files": true } }
 ]
