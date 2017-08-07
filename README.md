@@ -6,7 +6,7 @@ QuickGotoAnything
 [![Coverage Status](https://coveralls.io/repos/github/litefeel/Sublime-QuickGotoAnything/badge.svg?branch=master)](https://coveralls.io/github/litefeel/Sublime-QuickGotoAnything?branch=master)
 [![codecov](https://codecov.io/gh/litefeel/Sublime-QuickGotoAnything/branch/master/graph/badge.svg)](https://codecov.io/gh/litefeel/Sublime-QuickGotoAnything)
 <a href="https://packagecontrol.io/packages/QuickGotoAnything"><img src="https://packagecontrol.herokuapp.com/downloads/QuickGotoAnything.svg"></a>
-[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
+<a href="https://www.paypal.me/litefeel/5usd" title="Donate to this project using Paypal"><img src="https://img.shields.io/badge/paypal-donate-blue.svg" /></a>
 
 Sublime Text Plugin to quick scroll to function/variable or quick open file, It use selected word. Works in ST2 and ST3.
 
