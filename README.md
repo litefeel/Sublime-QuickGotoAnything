@@ -3,7 +3,7 @@ QuickGotoAnything
 
 [![Build Status](https://travis-ci.org/litefeel/Sublime-QuickGotoAnything.svg?branch=master)](https://travis-ci.org/litefeel/Sublime-QuickGotoAnything)
 [![Build status](https://ci.appveyor.com/api/projects/status/40vjxtplhvw82aw8/branch/master?svg=true)](https://ci.appveyor.com/project/litefeel/sublime-quickgotoanything/branch/master)
-[![Coverage Status](https://coveralls.io/repos/github/litefeel/Sublime-QuickGotoAnything/badge.svg?branch=master)](https://coveralls.io/github/litefeel/Sublime-QuickGotoAnything?branch=master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/litefeel/Sublime-QuickGotoAnything/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/litefeel/Sublime-QuickGotoAnything/?branch=master)
 [![codecov](https://codecov.io/gh/litefeel/Sublime-QuickGotoAnything/branch/master/graph/badge.svg)](https://codecov.io/gh/litefeel/Sublime-QuickGotoAnything)
 <a href="https://packagecontrol.io/packages/QuickGotoAnything"><img src="https://packagecontrol.herokuapp.com/downloads/QuickGotoAnything.svg"></a>
 <a href="https://www.paypal.me/litefeel/5usd" title="Donate to this project using Paypal"><img src="https://img.shields.io/badge/paypal-donate-blue.svg" /></a>
