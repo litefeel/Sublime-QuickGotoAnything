@@ -23,7 +23,8 @@ class QuickGotoCommand(sublime_plugin.TextCommand):
             if not re.match(reg, word_sel):
                 word_sel = ''
             self.view.window().run_command("show_overlay", {"overlay": "goto", "show_files": show_files, "text": prifix+word_sel})
-
+            self.view.window().run_command("select_all")
+            
 class QuickGotoFunctionCommand(QuickGotoCommand):
     def run(self, edit):
         self.doCommand(edit, '@', '^[a-zA-Z_]+[a-zA-Z0-9_]*$')
